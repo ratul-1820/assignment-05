@@ -4,6 +4,8 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; }
 :root {
   --brand-gradient: linear-gradient(90deg, #f97316, #ec4899, #8b5cf6);
 }
+html { scroll-behavior: smooth; }
+section[id] { scroll-margin-top: 80px; }
 
 .bg-brand   { background-image: var(--brand-gradient); }
 .text-brand { background-image: var(--brand-gradient); -webkit-background-clip: text; background-clip: text; color: transparent; }
